@@ -32,7 +32,7 @@ const btn = document.querySelector('button');
 
 btn.onclick = async () => {
     const s = GetSearch();
-    document.getElementById("loading-bar").innerHTML = "🏄Hang in there... Almost there...👨‍💻";
+    document.getElementById("loading-bar").innerHTML = "🏄‍♂️Loading response. This will take a minute⏱️...";
     // alert("Please wait for a few seconds till the ✨AI✨ returns its response 🐱‍💻.");
     const response = await SendRequest(s);
     DisplayResponse(response);
