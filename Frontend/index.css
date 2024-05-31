@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2C2727;
+    background: linear-gradient(135deg, #2C2727 0%, #3a3a3a 100%);
     color: #F6F4F4;
     text-align: center;
 }
@@ -13,6 +13,7 @@ header {
     padding: 20px;
     background-color: #FF7517;
     color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
@@ -38,6 +39,9 @@ main {
     margin: 0 auto;
     padding: 10px;
     box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .search-input {
@@ -49,6 +53,9 @@ main {
     padding: 0 15px;
     outline: none;
     font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .search-button {
@@ -61,6 +68,7 @@ main {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .search-button svg {
@@ -71,9 +79,14 @@ main {
     background-color: #e66b15;
 }
 
-.DocViewer{
-    background-color: #e66b15;
+.DocViewer {
+    background-color: #fff;
     border-radius: 15px;
-    border-color: transparent;
+    border: 1px solid #ccc;
     text-align: left;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
 }
