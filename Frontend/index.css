@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #2C2727 0%, #3a3a3a 100%);
+    background: #2C2727;
     color: #F6F4F4;
     text-align: center;
 }
