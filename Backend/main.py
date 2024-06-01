@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import requests
 import json
-import markdown
 
 app = FastAPI()
 secretcode = "By Z44k1R_D3V"
